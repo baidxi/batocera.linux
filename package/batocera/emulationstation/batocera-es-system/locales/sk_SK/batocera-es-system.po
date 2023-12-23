@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Batocera\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-05 13:13+0100\n"
-"PO-Revision-Date: 2023-12-18 13:27+0100\n"
+"PO-Revision-Date: 2023-12-22 11:38+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak (Slovakia)\n"
 "Language: sk_SK\n"
@@ -398,7 +398,7 @@ msgctxt "game_options"
 msgid "Use wheels instead of pads if wheels are connected."
 msgstr "Použiť kolieska namiesto ovládačov, ak sú pripojené."
 
-#. TRANSLATION: shared, shared, shared, shared
+#. TRANSLATION: shared, shared, shared, shared, pcsx2
 msgctxt "game_options"
 msgid "WHEELS"
 msgstr "Kolieska"
@@ -2886,6 +2886,48 @@ msgctxt "game_options"
 msgid "Enhancement. Remove the eighty sprites per line limit."
 msgstr "Rozšírenie. Odstráni obmedzenie 80 spritov na riadok."
 
+#. TRANSLATION: libretro/genesisplusgx, libretro/genesisplusgx, libretro/genesisplusgx, libretro/genesisplusgx, libretro/picodrive, ...
+msgctxt "game_options"
+msgid ""
+"Use Megadrive to automap inputs for a Megadrive style controller with a 6 "
+"button layout."
+msgstr ""
+
+#. TRANSLATION: libretro/genesisplusgx, libretro/genesisplusgx, libretro/genesisplusgx, libretro/genesisplusgx, libretro/genesisplusgx, ...
+msgctxt "game_options"
+msgid "CONTROLLERS"
+msgstr "Ovládače"
+
+#. TRANSLATION: libretro/genesisplusgx, libretro/picodrive
+msgctxt "game_options"
+msgid "CONTROLLER 1 INPUT MAPPING"
+msgstr ""
+
+#. TRANSLATION: libretro/genesisplusgx, libretro/genesisplusgx, libretro/genesisplusgx, libretro/genesisplusgx, libretro/picodrive, ...
+msgctxt "game_options"
+msgid "Retropad (Default)"
+msgstr ""
+
+#. TRANSLATION: libretro/genesisplusgx, libretro/genesisplusgx, libretro/genesisplusgx, libretro/genesisplusgx, libretro/picodrive, ...
+msgctxt "game_options"
+msgid "Megadrive"
+msgstr ""
+
+#. TRANSLATION: libretro/genesisplusgx, libretro/picodrive
+msgctxt "game_options"
+msgid "CONTROLLER 2 INPUT MAPPING"
+msgstr ""
+
+#. TRANSLATION: libretro/genesisplusgx, libretro/picodrive
+msgctxt "game_options"
+msgid "CONTROLLER 3 INPUT MAPPING"
+msgstr ""
+
+#. TRANSLATION: libretro/genesisplusgx, libretro/picodrive
+msgctxt "game_options"
+msgid "CONTROLLER 4 INPUT MAPPING"
+msgstr ""
+
 #. TRANSLATION: libretro/genesisplusgx, libretro/genesisplusgx
 msgctxt "game_options"
 msgid "Joypad Auto"
@@ -2935,6 +2977,43 @@ msgstr "Svetelná zbraň Menacer"
 msgctxt "game_options"
 msgid "Konami Justifiers"
 msgstr "Konami Justifiers"
+
+#. TRANSLATION: libretro/genesisplusgx, libretro/genesisplusgx
+msgctxt "game_options"
+msgid ""
+"Sound generator. MAME is faster and Nuked is cycle accurate. Original model "
+"used YM2612 while later revisions used YM3438."
+msgstr ""
+
+#. TRANSLATION: libretro/genesisplusgx, libretro/genesisplusgx
+msgctxt "game_options"
+msgid "FM SYNTHESIZER"
+msgstr ""
+
+#. TRANSLATION: libretro/genesisplusgx, libretro/genesisplusgx
+msgctxt "game_options"
+msgid "MAME (YM2612)"
+msgstr ""
+
+#. TRANSLATION: libretro/genesisplusgx, libretro/genesisplusgx
+msgctxt "game_options"
+msgid "MAME (ASIC YM3438)"
+msgstr ""
+
+#. TRANSLATION: libretro/genesisplusgx, libretro/genesisplusgx
+msgctxt "game_options"
+msgid "MAME (Enhanced YM3438)"
+msgstr ""
+
+#. TRANSLATION: libretro/genesisplusgx, libretro/genesisplusgx
+msgctxt "game_options"
+msgid "Nuked (YM2612)"
+msgstr ""
+
+#. TRANSLATION: libretro/genesisplusgx, libretro/genesisplusgx
+msgctxt "game_options"
+msgid "Nuked (YM3438)"
+msgstr ""
 
 #. TRANSLATION: libretro/genesisplusgx, libretro/genesisplusgx
 msgctxt "game_options"
@@ -7746,11 +7825,6 @@ msgctxt "game_options"
 msgid "Map your controller to an emulated Wiimote."
 msgstr "Mapovať váš ovládač na emulovaný Wiimote."
 
-#. TRANSLATION: dolphin/uzem, dolphin/uzem, dolphin/uzem, dolphin/uzem, dolphin/uzem, ...
-msgctxt "game_options"
-msgid "CONTROLLERS"
-msgstr "Ovládače"
-
 #. TRANSLATION: dolphin/uzem
 msgctxt "game_options"
 msgid "EMULATE WIIMOTE"
@@ -9750,6 +9824,26 @@ msgstr ""
 msgctxt "game_options"
 msgid "TIME CRISIS FOG HACK"
 msgstr "TIME CRISIS hack na hmlu"
+
+#. TRANSLATION: pcsx2
+msgctxt "game_options"
+msgid "Playstation 2 wheel type"
+msgstr "Typ kolieska Playstation 2"
+
+#. TRANSLATION: pcsx2
+msgctxt "game_options"
+msgid "WHEEL MODEL"
+msgstr "Model kolieska"
+
+#. TRANSLATION: pcsx2
+msgctxt "game_options"
+msgid "Driving Force Pro"
+msgstr "Driving Force Pro"
+
+#. TRANSLATION: pcsx2
+msgctxt "game_options"
+msgid "GT Force"
+msgstr "GT Force"
 
 #. TRANSLATION: ppsspp
 msgctxt "game_options"
