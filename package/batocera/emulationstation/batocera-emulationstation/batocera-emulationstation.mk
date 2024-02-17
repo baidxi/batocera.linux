@@ -3,14 +3,14 @@
 # batocera-emulationstation
 #
 ################################################################################
-# Last update: Commits on Dec 21, 2023
-BATOCERA_EMULATIONSTATION_VERSION = 29972a079356db3665258919de6d5862d6c3a89a
+# Last update: Commits on Feb 9, 2024
+BATOCERA_EMULATIONSTATION_VERSION = 12abadfe94523b3e2da3119255f249289961d472
 BATOCERA_EMULATIONSTATION_SITE = https://github.com/batocera-linux/batocera-emulationstation
 BATOCERA_EMULATIONSTATION_SITE_METHOD = git
 BATOCERA_EMULATIONSTATION_LICENSE = MIT
 BATOCERA_EMULATIONSTATION_GIT_SUBMODULES = YES
 BATOCERA_EMULATIONSTATION_LICENSE = MIT, Apache-2.0
-BATOCERA_EMULATIONSTATION_DEPENDENCIES = sdl2 sdl2_mixer libfreeimage freetype alsa-lib libcurl vlc rapidjson pulseaudio batocera-es-system host-gettext
+BATOCERA_EMULATIONSTATION_DEPENDENCIES = sdl2 sdl2_mixer vlc libfreeimage freetype alsa-lib libcurl rapidjson batocera-es-system host-gettext
 # install in staging for debugging (gdb)
 BATOCERA_EMULATIONSTATION_INSTALL_STAGING = YES
 # BATOCERA_EMULATIONSTATION_OVERRIDE_SRCDIR = /sources/batocera-emulationstation
@@ -31,6 +31,7 @@ endif
 endif
 
 ifeq ($(BR2_PACKAGE_RPI_USERLAND),y)
+BATOCERA_EMULATIONSTATION_DEPENDENCIES += omxplayer
 BATOCERA_EMULATIONSTATION_CONF_OPTS += -DBCM=ON -DRPI=ON
 endif
 

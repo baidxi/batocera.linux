@@ -14,7 +14,7 @@ from os import environ
 eslog = get_logger(__name__)
 
 class DuckstationGenerator(Generator):
-    def generate(self, system, rom, playersControllers, guns, wheels, gameResolution):
+    def generate(self, system, rom, playersControllers, metadata, guns, wheels, gameResolution):
         # Test if it's a m3u file
         if os.path.splitext(rom)[1] == ".m3u":
             rom = rewriteM3uFullPath(rom)
@@ -291,7 +291,7 @@ class DuckstationGenerator(Generator):
             settings.add_section("Cheevos")
         # RetroAchievements
         if system.isOptSet('retroachievements') and system.getOptBoolean('retroachievements') == True:
-            headers   = {"Content-type": "text/plain"}
+            headers   = {"Content-type": "text/plain", "User-Agent": "Batocera.linux"}
             login_url = "https://retroachievements.org/"
             username  = system.config.get('retroachievements.username', "")
             password  = system.config.get('retroachievements.password', "")
