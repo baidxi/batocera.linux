@@ -230,6 +230,10 @@ def createLibretroConfig(generator, system, controllers, metadata, guns, wheels,
     if(system.config['core'] in coreToP2Device):
         retroarchConfig['input_libretro_device_p2'] = coreToP2Device[system.config['core']]
 
+    ## AMIGA BIOS files are in /userdata/bios/amiga
+    if (system.config['core'] == 'puae') or (system.config['core'] == 'puae2021') or (system.config['core'] == 'uae4arm'):
+        retroarchConfig['system_directory'] = '"/userdata/bios/amiga/"'
+
     ## AMIGA OCS-ECS/AGA/CD32
     if system.config['core'] == 'puae' or system.config['core'] == 'puae2021':
         if system.name != 'amigacd32':
@@ -346,7 +350,7 @@ def createLibretroConfig(generator, system, controllers, metadata, guns, wheels,
             retroarchConfig['input_libretro_device_p4'] = '1'
 
         # wheel
-        if system.isOptSet('use_wheels') and system.getOptBoolean('use_wheels'):
+        if system.isOptSet('use_wheels') and system.getOptBoolean('use_wheels') and len(wheels) > 0:
             retroarchConfig['input_libretro_device_p1'] = '2049' # Race Controller
 
     ## Sega Megadrive controller
@@ -988,6 +992,13 @@ def configureGunInputsForPlayer(n, gun, controllers, retroarchConfig, core, meta
     if core == "flycast":
         retroarchConfig['input_player{}_gun_offscreen_shot_mbtn'.format(n)] = ''
         retroarchConfig['input_player{}_gun_aux_a_mbtn'         .format(n)] = 2
+
+    if core == "mame":
+        retroarchConfig['input_player{}_gun_offscreen_shot_mbtn'.format(n)] = ''
+        retroarchConfig['input_player{}_a_mbtn'                 .format(n)] = 1
+        retroarchConfig['input_player{}_b_mbtn'                 .format(n)] = 2
+        retroarchConfig['input_player{}_start_mbtn'             .format(n)] = 3
+        retroarchConfig['input_player{}_select_mbtn'            .format(n)] = 4
 
     if core == "mame078plus":
         retroarchConfig['input_player{}_gun_offscreen_shot_mbtn'.format(n)] = ''

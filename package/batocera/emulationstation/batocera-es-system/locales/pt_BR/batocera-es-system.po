@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: batocera-emulationstation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-15 21:09+0100\n"
-"PO-Revision-Date: 2024-02-02 01:07+0000\n"
+"PO-Revision-Date: 2024-03-01 19:24+0000\n"
 "Last-Translator: Maioni\n"
 "Language-Team: Portuguese (Brasil)\n"
-"Language: pt-BR\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -9591,7 +9591,7 @@ msgctxt "game_options"
 msgid "Force the game to render in this aspect ratio."
 msgstr "Força o jogo a renderizar nesta proporção de tela."
 
-#. TRANSLATION: flycast, rpcs3, cgenius
+#. TRANSLATION: flycast, cgenius
 msgctxt "game_options"
 msgid "RENDER RESOLUTION"
 msgstr "RESOLUÇÃO DE RENDERIZAÇÃO"
@@ -11183,6 +11183,11 @@ msgstr "Alto (Padrão)"
 msgctxt "game_options"
 msgid "Choose your preferred render resolution."
 msgstr "Escolha sua resolução de renderização preferida."
+
+#. TRANSLATION: rpcs3
+msgctxt "game_options"
+msgid "RENDER RESOLUTION (SCALING)"
+msgstr "RESOLUÇÃO DE RENDERIZAÇÃO (ESCALA)"
 
 #. TRANSLATION: rpcs3, xenia-canary
 msgctxt "game_options"

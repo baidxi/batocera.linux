@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2024-01-30 03:23+0800\n"
+"PO-Revision-Date: 2024-02-26 13:24+0800\n"
 "Last-Translator: wanger\n"
 "Language-Team: 王二\n"
 "Language: zh_CN\n"
@@ -9402,7 +9402,7 @@ msgctxt "game_options"
 msgid "Force the game to render in this aspect ratio."
 msgstr "强制游戏以此纵横比渲染。"
 
-#. TRANSLATION: flycast, rpcs3, cgenius
+#. TRANSLATION: flycast, cgenius
 msgctxt "game_options"
 msgid "RENDER RESOLUTION"
 msgstr "渲染分辨率"
@@ -10934,6 +10934,11 @@ msgstr "高(默认)"
 msgctxt "game_options"
 msgid "Choose your preferred render resolution."
 msgstr "选择您喜欢的渲染分辨率."
+
+#. TRANSLATION: rpcs3
+msgctxt "game_options"
+msgid "RENDER RESOLUTION (SCALING)"
+msgstr "渲染分辨率 (缩放)"
 
 #. TRANSLATION: rpcs3, xenia-canary
 msgctxt "game_options"
